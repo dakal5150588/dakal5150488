@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic,latin-ext");
+@icon-font-path : "../fonts/icon.png";
+@icon-font-name : "glyphicons-halflings-regular";
+body {
+  font-family: "Roboto", sans-serif;
+  background: rgba(255, 99, 71, 0.2);
+  /* Цвет фона */
+  border: 4px double black;
+  height: 100vh; }
+
+h2, p {
+  text-align: center; }
+
+/*
+.lighten{
+  background-color: lighten(img,10%);
+}*/
+/*
+.darken{
+  background-color: darken(img,10%);
+}*/
+/*
+.rgba{
+  background-color: rgba($fons-body,.4);
+}*/
+h2, p {
+  text-align: center; }
+
+table {
+  width: 100%;
+  /* Ширина блока */
+  border: 2px solid; }
+
+table tr, table th, table td {
+  border: 1px solid; }
+
+table th {
+  background: tomato; }
+
+table td {
+  background: rgba(255, 99, 71, 0.5);
+  text-align: center; }
